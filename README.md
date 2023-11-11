@@ -1,3 +1,45 @@
+
+
+## Nov 10 Update:
+Some clarification on the way we want caesar cipher to work:
+
+If the shift is 1 the equivalent output would be:
+
+A = B
+
+a = b
+
+c = d
+
+Z = A
+
+If the shift is 3 the equivalent output would be:
+
+A = D
+
+a = d
+
+c = f
+
+Z = C
+
+Keep in mind of how the computer is storing chars, it uses the ascii table. Look this up if you don't remember what this is. You can cast a char as an int
+and you will see an int such as:
+
+`char letter = 'a';`
+
+`int value = (int) letter;`
+
+In this example when value is printed out it will be `97` because that is its value in the ascii table.
+
+There is also a method for strings called .toCharArray() that you are welcome to learn about and use, as well as the .charAt()
+
+Make sure to do things one step at a time, and feel free to change the helper functions or do everything in one. 
+There are many ways to complete this assignment so don't hesitate to try and solve it the way that makes the most sense to you.
+
+
+Please email me if you have any further questions
+
 # CS 203 Fall 2023 Lab 11
 
 ### Hello all!
