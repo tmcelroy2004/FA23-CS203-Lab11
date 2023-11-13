@@ -7,12 +7,11 @@ public class EncryptionTester {
         String inputFilePath = "src/encryptMe.txt";
         String outputFilePath = "src/newEncrypted.txt";
 		
-        int shift = 1; // Says how much you would like to shift
+        int shift = 4; // Says how much you would like to shift
 
         Encrypter enc = new Encrypter(shift);
-
 		enc.encrypt(inputFilePath, outputFilePath);
-		enc.decrypt(encryptedFilePath, decryptedFilePath);
+	enc.decrypt(encryptedFilePath, decryptedFilePath);
 
 	}
 
